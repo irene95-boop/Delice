@@ -1,0 +1,147 @@
+/* ========== GENERAL STYLES ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #a88116;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e04353;
+}
+
+/* ========== NAVIGATION BAR ========== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-logo img {
+    width: 50px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-menu ul li a:hover {
+    color: #ff4b5c;
+}
+
+/* ========== HERO SECTION ========== */
+.featured-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.featured-text {
+    max-width: 50%;
+}
+
+.featured-text h1 {
+    font-size: 3rem;
+    color: #222;
+}
+
+.social_icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon img {
+    width: 30px;
+}
+
+/* ========== PROJECTS SECTION ========== */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.project-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+/* ========== CONTACT SECTION ========== */
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-field, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #866464;
+    color: #fff;
+    margin-top: 50px;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+ <title>Portfolio | Detchegnon Iréné AGBARA</title>
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Debut de la Navbar -->
+        <nav>
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <div class="nav-menu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Acceuil</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">A propos</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="assets/images/cv.pdf" download>
+                    <button class="btn">Telecharger mon CV <img src="assets/images/cv.svg" alt=""></button>
+                </a>
+            </div>
+        </nav>
+        <!-- Fin de la Navbar -->
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- DEBUT SECTION ACCEUIL ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <!-- Nom avec effet de texte tapé -->
+                    <div class="featured-name">
+                        <p>Je suis <span class="typedText">Detchegnon Iréné AGBARA</span></p>
+                    </div>
+            
+                    <div >
+                        <p><span id="roles"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Etudiant developpeur Front-End experimente et passionne par la creation de websites.</p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn red-btn">Me contacter</button>
+                        <a href="" download>
+                            <button class="btn">Telecharger mon CV <img src="assets/images/cv.svg" alt=""></button>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"> <img src="assets/images/html5.svg" alt=""> </div>
+                        <div class="icon"><img src="assets/images/css.svg" alt=""></div>
+                        <div class="icon"><img src="assets/images/js.svg" alt=""></div>
+                        <div class="icon"><img src="assets/images/github.svg" alt=""></div>
+                    </div>
+                </div>
+
+                <!-- images -->
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="ma.jpg" alt="ma.jpg">
+                    </div>
+                </div>
+                <!-- Fin images -->
+            </section>
+            <!-- -------------- FIN SECTION ACCEUIL ---------------- -->
+
+            <!-- -------------- DEBUT SECTION PROJETS ---------------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>A propos</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Nombre</h3>
+                        <label> Projets Complets</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label>Etudiant</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label></label>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- FIN SECTION PROJETS ---------------- -->
+
+            <!-- -------------- DEBUT SECTION CONTACT ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Besoin de me contacter ?</h1>
+                    <span>Si vous avez un projet ou souhaitez me recruter, Ecrivez moi ici</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Mes informations <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: irenedetchegnon@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: 00221 77 878 99 11</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Nom">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Envoyer <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- FIN SECTION CONTACT ---------------- -->
+        </main>
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Detchegnon Iréné AGBARA.</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Acceuil</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">A propos</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </footer>
+        <!-- --------------- FIN FOOTER --------------- -->
+    </div>
+</body>
+</html>
